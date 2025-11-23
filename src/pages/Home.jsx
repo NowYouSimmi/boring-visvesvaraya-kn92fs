@@ -48,6 +48,12 @@ export default function Home({ setPage }) {
           📋 Production Status
         </button>
 
+       {/* (Optional) Spaces Usage — currently placed below all the requested items */}
+        <button className="btn" onClick={() => setPage("spaces-usage")}>
+          📌 Spaces Usage
+        </button>
+      </div>
+      
         {/* 5. Venue Information */}
         <button className="btn" onClick={() => setPage("venues")}>
           🏟 Venue Information
@@ -83,7 +89,7 @@ export default function Home({ setPage }) {
           onClick={() => setPage("hours")}
           title="View and log working hours"
         >
-          ⏱ Hours
+          ⏱  Hours
         </button>
 
         {/* (Optional) Spaces Usage — currently placed below all the requested items */}
@@ -102,3 +108,4 @@ export default function Home({ setPage }) {
     </div>
   );
 }
+
