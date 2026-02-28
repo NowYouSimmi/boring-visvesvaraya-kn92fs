@@ -1,5 +1,5 @@
 {
-  "name": "stagevault-app",
+  "name": "sv-v6",
   "compatibility_date": "2025-11-23",
   "assets": {
     "directory": "./dist"
